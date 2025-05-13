@@ -32,7 +32,7 @@ BOOK_CATALOG/
 ├── style/                 # CSS styles
 │   └── style.css
 │
-├── WireFrame&Diagram/     # Wireframes and system design (if available)
+├── WireFrame&Diagram/     # Wireframes and system design
 │
 ├── book_catalog.sql       # Database schema and sample data
 ├── conn.php               # Database connection script
