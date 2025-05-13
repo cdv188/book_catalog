@@ -1,7 +1,14 @@
-📚 Book Catalog Web Application
-A PHP-based book catalog web application that includes admin and client interfaces. The admin side allows management of book listings, while the client side enables users to register, browse, and manage their book lists.
+# 📚 Book Catalog Web Application
 
-🗂️ Project Structure
+A PHP-based book catalog web application with **admin** and **client** interfaces.  
+- The **Admin side** allows management of book listings.  
+- The **Client side** enables users to register, browse, and manage their personal book lists.
+
+---
+
+## 🗂️ Project Structure
+
+```
 BOOK_CATALOG/
 │
 ├── admin/                 # Admin dashboard and functionality
@@ -21,68 +28,86 @@ BOOK_CATALOG/
 │   └── client.js          # Client-side JavaScript
 │
 ├── img/                   # Common images (icons, logo)
+│
 ├── style/                 # CSS styles
 │   └── style.css
 │
-├── WireFrame&Diagram/     # Wireframes and system design (if applicable)
+├── WireFrame&Diagram/     # Wireframes and system design (if available)
 │
 ├── book_catalog.sql       # Database schema and sample data
 ├── conn.php               # Database connection script
 ├── index.php              # Landing/login page
 ├── logout.php             # Logout functionality
 └── process-login.php      # Login processing script
-🌐 Features
-✅ Admin Side
-Secure admin login
+```
 
-View and manage book listings
+---
 
-Organized code structure for future expansion
+## 🌐 Features
 
-👤 Client Side
-User registration and login
+### ✅ Admin Side
+- Secure admin login  
+- View and manage book listings  
+- Organized codebase for easy updates  
 
-Browse available books
+### 👤 Client Side
+- User registration and login  
+- Browse available books  
+- Add/view personal book list  
 
-Add/view books in personal list
+---
 
-🧰 Technologies Used
-PHP – Server-side scripting
+## 🧰 Technologies Used
 
-MySQL – Relational database
+- **PHP** – Server-side scripting  
+- **MySQL** – Relational database  
+- **JavaScript** – Client-side interactivity  
+- **HTML/CSS** – Webpage structure and styling  
 
-JavaScript – Frontend interactivity
+---
 
-HTML/CSS – Webpage structure and styling
+## 🔧 Setup Instructions
 
-🔧 Setup Instructions
-Clone the Repository
-git clone https://github.com/your-username/book_catalog.git
-cd book_catalog
-Import the Database
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/book_catalog.git
+   cd book_catalog
+   ```
 
-Use tools like phpMyAdmin or MySQL CLI.
+2. **Import the Database**
+   - Open phpMyAdmin or use MySQL CLI
+   - Import the file: `book_catalog.sql`
 
-Import book_catalog.sql.
+3. **Configure Database Connection**
+   - Edit `conn.php`:
+     ```php
+     $servername = "localhost";
+     $username = "root";
+     $password = "";
+     $dbname = "book_catalog";
+     ```
 
-Configure Database Connection
+4. **Run the Application**
+   - Place the project in your `htdocs` (XAMPP) or web server directory  
+   - Open in browser:  
+     ```
+     http://localhost/book_catalog/
+     ```
 
-Edit conn.php with your database credentials:
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "book_catalog";
-Run the Application
+---
 
-Place the project folder inside your XAMPP/htdocs or your web server directory.
+## 📷 Previews and Diagrams
 
-Access it via: http://localhost/book_catalog/
+See the `WireFrame&Diagram/` folder for design sketches and diagrams (if available).
 
-📷 Previews and Diagrams
-Check the WireFrame&Diagram/ folder for design sketches and flow diagrams (if included).
+---
 
-🙌 Contribution
-Feel free to fork and improve the project! Pull requests are welcome.
+## 🙌 Contribution
 
-📄 License
-This project is open-source. You may use and modify it as needed.
+Feel free to fork, modify, and enhance the project. Pull requests are welcome!
+
+---
+
+## 📄 License
+
+This project is open-source and free to use and modify.
